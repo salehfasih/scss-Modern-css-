@@ -1,0 +1,31 @@
+header {
+  background-color: red;
+}
+
+header button {
+  background-color: grey;
+}
+
+header button:hover {
+  color: red;
+  padding: 20px;
+}
+
+header p {
+  font-size: 30px;
+  border: 2px solid black;
+}
+
+.container {
+  background-color: greenyellow;
+}
+
+.container button {
+  background-color: hotpink;
+}
+
+.container button:hover {
+  color: red;
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */

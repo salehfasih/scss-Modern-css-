@@ -1,0 +1,40 @@
+$header_color:red;
+$para:2px solid black;
+
+// operator  
+// variables
+// nesting 
+// underscore
+// mixin   (important)
+
+@mixin style($color) {
+    color: $color;
+    padding: 20px;
+
+    
+}
+header{
+    background-color: $header_color;
+    button{
+        background-color: grey;
+        &:hover{
+            @include style(red);
+          }
+    }
+    p{
+        font-size: 30px;
+        border:$para;
+    }
+}
+.container{
+     background-color: greenyellow;
+
+     button{
+         background-color: hotpink;
+        &:hover{
+          @include style(red);
+        }
+     }
+
+    }
+
